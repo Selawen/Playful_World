@@ -7,14 +7,17 @@ public class shootBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (KeyCode == 'a') {
-            rb.AddForce(0, 200, 0);
+        if (Input.GetButtonDown("Fire1"))
+        {
+            rb.AddForce(0, 100, 1000);
+            rb.useGravity = true;
+            Debug.Log("mouse clicked");
         }
     }
 }

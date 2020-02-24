@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ammo.cs" />
     <Compile Include="Assets\cameraMovement.cs" />
     <Compile Include="Assets\shootBullet.cs" />
     <Reference Include="Unity.Timeline.Editor">

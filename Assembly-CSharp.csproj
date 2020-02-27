@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\ammo.cs" />
     <Compile Include="Assets\cameraMovement.cs" />
+    <Compile Include="Assets\mouseLock.cs" />
     <Compile Include="Assets\shootBullet.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/inger/OneDrive/Documents/Unity/Playful world/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

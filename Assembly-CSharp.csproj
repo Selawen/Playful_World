@@ -62,10 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ammo.cs" />
-    <Compile Include="Assets\cameraMovement.cs" />
-    <Compile Include="Assets\mouseLock.cs" />
-    <Compile Include="Assets\shootBullet.cs" />
+    <Compile Include="Assets\Scenes\BasicMainMenu\Scripts\ExitOnClick.cs" />
+    <Compile Include="Assets\Scenes\BasicMainMenu\Scripts\PlayOnClick.cs" />
+    <Compile Include="Assets\Scripts\ammo.cs" />
+    <Compile Include="Assets\Scripts\cameraMovement.cs" />
+    <Compile Include="Assets\Scripts\mouseLock.cs" />
+    <Compile Include="Assets\Scripts\shootBullet.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/inger/OneDrive/Documents/Unity/Playful world/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
